@@ -57,7 +57,7 @@ static char *buttonClickKey;
     [mutableAttribText addAttributes:@{
                                        NSFontAttributeName : [UIFont boldSystemFontOfSize:14.0f],
                                        NSForegroundColorAttributeName : [UIColor orangeColor]
-                                       } range:NSMakeRange(contentText.length, 6)];
+                                       } range:NSMakeRange(mutableAttribText.length-8, 8)];//默认收起，8代表收起状态最后9个字符"......更多"
     self.attributedText = mutableAttribText;
     
     
