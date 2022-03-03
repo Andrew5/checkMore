@@ -53,7 +53,7 @@ static char *buttonClickKey;
                                  NSParagraphStyleAttributeName : style
                                  };
     
-    NSMutableAttributedString *mutableAttribText = [[NSMutableAttributedString alloc] initWithString:[contentText stringByAppendingString:@"  查看更多"] attributes:dictionary];
+    NSMutableAttributedString *mutableAttribText = [[NSMutableAttributedString alloc] initWithString:[contentText stringByAppendingString:@"更多"] attributes:dictionary];
     [mutableAttribText addAttributes:@{
                                        NSFontAttributeName : [UIFont boldSystemFontOfSize:14.0f],
                                        NSForegroundColorAttributeName : [UIColor orangeColor]
